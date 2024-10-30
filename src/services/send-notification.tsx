@@ -18,7 +18,7 @@ export const sendNotification = async (data: Data) => {
     .replace("{{ fullName }}", data.fullName || "")
     .replace("{{ email }}", data.email || "")
     .replace("{{ phoneNumber }}", data.phoneNumber || "")
-    .replace("{{ phoneNumber }}", data.branch || "")
+    .replace("{{ branch }}", data.branch || "")
     .replace("{{ userType }}", data.userType || "")
     .replace("{{ contentType }}", data.contentType || "")
     .replace("{{ content }}", data.content || "");
