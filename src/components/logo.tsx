@@ -8,7 +8,7 @@ const Logo = () => {
       alt="alshalabi"
       width={2000}
       height={2000}
-      className="h-auto w-[15rem] md:w-[18rem]"
+      className="h-auto w-[14.3rem] md:w-[18.555rem]"
     />
   );
 };
