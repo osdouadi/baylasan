@@ -232,7 +232,7 @@ export default function Home() {
                   </TabsContent>
                   <TabsContent value="client">
                     <div className="flex flex-col md:gap-4">
-                      <div className="flex items-end gap-1.5 md:gap-6 flex-col md:flex-row w-full py-2 md:pt-4">
+                      <div className="flex items-end gap-4 md:gap-6 flex-col md:flex-row w-full py-2 md:pt-4">
                         <FormField
                           name="fullName"
                           render={({ field }) => (
@@ -270,7 +270,7 @@ export default function Home() {
                           )}
                         />
                       </div>
-                      <div className="flex items-end gap-1.5 md:gap-6 flex-col md:flex-row w-full py-2 md:pb-4">
+                      <div className="flex items-end gap-4 md:gap-6 flex-col md:flex-row w-full py-2 md:pb-4">
                         <FormField
                           name="phoneNumber"
                           render={({ field }) => (
